@@ -1,2 +1,2 @@
-# tushar.github.io
+# tusharpatidar.github.io
 My landing page
