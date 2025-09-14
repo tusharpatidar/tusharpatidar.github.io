@@ -1,5 +1,386 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar Patidar - Senior Software Engineer</title>
+    <meta name="description" content="Senior Software Engineer specializing in full-stack development, microservices, and cloud solutions.">
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
- <p>Land Ho...</p>
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <a href="#home">Tushar Patidar</a>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">Experience</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="nav__close-icon">×</i>
+                </div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="nav__toggle-icon">☰</i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <div class="hero__img">
+                        <div class="hero__img-placeholder"></div>
+                    </div>
+                    <h1 class="hero__title">Senior Software Engineer</h1>
+                    <p class="hero__subtitle">Building scalable solutions with modern technologies</p>
+                    <p class="hero__description">
+                        Passionate about creating efficient, scalable applications using cutting-edge technologies and best practices.
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#projects" class="btn btn--primary">View My Work</a>
+                        <a href="#" class="btn btn--outline" id="download-resume">Download Resume</a>
+                    </div>
+                    <div class="hero__social">
+                        <a href="https://linkedin.com/in/tushar-patidar" target="_blank" class="hero__social-link">
+                            <span class="hero__social-icon">in</span>
+                        </a>
+                        <a href="https://github.com/tusharpatidar" target="_blank" class="hero__social-link">
+                            <span class="hero__social-icon">gh</span>
+                        </a>
+                        <a href="mailto:contact@tusharpatidar.dev" class="hero__social-link">
+                            <span class="hero__social-icon">@</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section__title">About Me</h2>
+                <div class="about__container">
+                    <div class="about__content">
+                        <p class="about__description">
+                            Passionate Senior Software Engineer with 5+ years of experience in full-stack development. 
+                            Specialized in building scalable web applications using Java, Spring Boot, React.js, and modern cloud technologies. 
+                            Strong expertise in microservices architecture, API design, and agile development practices.
+                        </p>
+                        <div class="about__highlights">
+                            <div class="about__highlight">
+                                <h4>5+ Years</h4>
+                                <span>Professional Experience</span>
+                            </div>
+                            <div class="about__highlight">
+                                <h4>Full-Stack</h4>
+                                <span>Development Expertise</span>
+                            </div>
+                            <div class="about__highlight">
+                                <h4>Team</h4>
+                                <span>Leadership Experience</span>
+                            </div>
+                            <div class="about__highlight">
+                                <h4>Cloud</h4>
+                                <span>& DevOps Practices</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn--primary" id="download-resume-about">Download Resume</a>
+                    </div>
+                    <div class="about__img">
+                        <div class="about__img-placeholder"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section__title">Technical Skills</h2>
+                <div class="skills__container">
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">Programming Languages</h3>
+                        <div class="skills__items">
+                            <span class="skill__item">Java</span>
+                            <span class="skill__item">JavaScript</span>
+                            <span class="skill__item">Python</span>
+                            <span class="skill__item">TypeScript</span>
+                            <span class="skill__item">C++</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">Frontend</h3>
+                        <div class="skills__items">
+                            <span class="skill__item">React.js</span>
+                            <span class="skill__item">HTML5</span>
+                            <span class="skill__item">CSS3</span>
+                            <span class="skill__item">Bootstrap</span>
+                            <span class="skill__item">Material-UI</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">Backend</h3>
+                        <div class="skills__items">
+                            <span class="skill__item">Spring Boot</span>
+                            <span class="skill__item">Node.js</span>
+                            <span class="skill__item">Express.js</span>
+                            <span class="skill__item">RESTful APIs</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">Database</h3>
+                        <div class="skills__items">
+                            <span class="skill__item">MySQL</span>
+                            <span class="skill__item">PostgreSQL</span>
+                            <span class="skill__item">MongoDB</span>
+                            <span class="skill__item">Redis</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">Cloud & DevOps</h3>
+                        <div class="skills__items">
+                            <span class="skill__item">AWS</span>
+                            <span class="skill__item">Azure</span>
+                            <span class="skill__item">Docker</span>
+                            <span class="skill__item">Kubernetes</span>
+                            <span class="skill__item">Jenkins</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">Development Tools</h3>
+                        <div class="skills__items">
+                            <span class="skill__item">Git</span>
+                            <span class="skill__item">Maven</span>
+                            <span class="skill__item">IntelliJ IDEA</span>
+                            <span class="skill__item">VS Code</span>
+                            <span class="skill__item">Postman</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section__title">Featured Projects</h2>
+                <div class="projects__filters">
+                    <button class="filter__btn filter__btn--active" data-filter="all">All</button>
+                    <button class="filter__btn" data-filter="java">Java</button>
+                    <button class="filter__btn" data-filter="react">React</button>
+                    <button class="filter__btn" data-filter="node">Node.js</button>
+                </div>
+                <div class="projects__container">
+                    <div class="project__card" data-category="java react">
+                        <div class="project__img">
+                            <div class="project__img-placeholder"></div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">E-commerce Platform</h3>
+                            <p class="project__description">
+                                Full-stack web application with microservices architecture, payment integration, and real-time inventory management
+                            </p>
+                            <div class="project__technologies">
+                                <span class="tech__tag">Java</span>
+                                <span class="tech__tag">Spring Boot</span>
+                                <span class="tech__tag">React.js</span>
+                                <span class="tech__tag">MySQL</span>
+                                <span class="tech__tag">AWS</span>
+                            </div>
+                            <div class="project__links">
+                                <a href="#" class="project__link" target="_blank">Live Demo</a>
+                                <a href="#" class="project__link" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project__card" data-category="node">
+                        <div class="project__img">
+                            <div class="project__img-placeholder"></div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Task Management API</h3>
+                            <p class="project__description">
+                                RESTful API with JWT authentication, real-time notifications, and comprehensive project management features
+                            </p>
+                            <div class="project__technologies">
+                                <span class="tech__tag">Node.js</span>
+                                <span class="tech__tag">Express.js</span>
+                                <span class="tech__tag">MongoDB</span>
+                                <span class="tech__tag">Socket.io</span>
+                            </div>
+                            <div class="project__links">
+                                <a href="#" class="project__link" target="_blank">Live Demo</a>
+                                <a href="#" class="project__link" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project__card" data-category="react">
+                        <div class="project__img">
+                            <div class="project__img-placeholder"></div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Data Analytics Dashboard</h3>
+                            <p class="project__description">
+                                React-based dashboard with interactive charts, real-time data visualization, and export functionality
+                            </p>
+                            <div class="project__technologies">
+                                <span class="tech__tag">React.js</span>
+                                <span class="tech__tag">Chart.js</span>
+                                <span class="tech__tag">Python</span>
+                                <span class="tech__tag">PostgreSQL</span>
+                            </div>
+                            <div class="project__links">
+                                <a href="#" class="project__link" target="_blank">Live Demo</a>
+                                <a href="#" class="project__link" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience section" id="experience">
+            <div class="container">
+                <h2 class="section__title">Work Experience</h2>
+                <div class="experience__container">
+                    <div class="experience__item">
+                        <div class="experience__date">2021 - Present</div>
+                        <div class="experience__content">
+                            <h3 class="experience__title">Senior Software Engineer</h3>
+                            <h4 class="experience__company">Tech Solutions Pvt Ltd</h4>
+                            <p class="experience__location">Pune, India</p>
+                            <ul class="experience__achievements">
+                                <li>Led development of microservices architecture reducing system latency by 40%</li>
+                                <li>Mentored team of 4 junior developers and improved code quality standards</li>
+                                <li>Implemented CI/CD pipelines reducing deployment time by 60%</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="experience__item">
+                        <div class="experience__date">2019 - 2021</div>
+                        <div class="experience__content">
+                            <h3 class="experience__title">Software Developer</h3>
+                            <h4 class="experience__company">Innovation Systems</h4>
+                            <p class="experience__location">Mumbai, India</p>
+                            <ul class="experience__achievements">
+                                <li>Developed and maintained 5+ web applications serving 10,000+ users</li>
+                                <li>Optimized database queries improving application performance by 30%</li>
+                                <li>Collaborated with cross-functional teams in agile development environment</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section__title">Get In Touch</h2>
+                <div class="contact__container">
+                    <div class="contact__info">
+                        <h3 class="contact__info-title">Let's Work Together</h3>
+                        <p class="contact__info-description">
+                            I'm always interested in discussing new opportunities, innovative projects, or just having a chat about technology.
+                        </p>
+                        <div class="contact__details">
+                            <div class="contact__detail">
+                                <span class="contact__detail-icon">📧</span>
+                                <div>
+                                    <h4>Email</h4>
+                                    <a href="mailto:contact@tusharpatidar.dev">contact@tusharpatidar.dev</a>
+                                </div>
+                            </div>
+                            <div class="contact__detail">
+                                <span class="contact__detail-icon">📞</span>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <a href="tel:+919876543210">+91 9876543210</a>
+                                </div>
+                            </div>
+                            <div class="contact__detail">
+                                <span class="contact__detail-icon">📍</span>
+                                <div>
+                                    <h4>Location</h4>
+                                    <span>Pune, India</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact__form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <p>&copy; 2024 Tushar Patidar. All rights reserved.</p>
+                </div>
+                <div class="footer__social">
+                    <a href="https://linkedin.com/in/tushar-patidar" target="_blank" class="footer__social-link">LinkedIn</a>
+                    <a href="https://github.com/tusharpatidar" target="_blank" class="footer__social-link">GitHub</a>
+                    <a href="mailto:contact@tusharpatidar.dev" class="footer__social-link">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
